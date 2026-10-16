@@ -24,3 +24,7 @@ Official setup guide: https://developers.google.com/identity/gsi/web/guides/get-
 
 ## Security limitation
 This is a static-site demo. It displays the Google profile after the Google button returns a credential, but the browser-only code does not verify the ID token on a server. Do not use it to protect an admin dashboard, upload games, or grant permissions. For real account authentication, use Firebase Authentication or a backend that verifies Google ID tokens. Admin access must be enforced server-side. Never place a client secret, password, or private code in static website files.
+
+
+## Browser Games category
+The homepage now includes a Browser Games section with three clearly marked Coming Soon cards. These are placeholders only, not playable games. To make a game playable, add an HTML5 game (or a hosted game link) and connect its Play button to the game.
